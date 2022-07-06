@@ -5,7 +5,7 @@ window = Tk()  #initialising window
 
 b1 = Button(window,text="Execute")
 
-b1.pack()
+b1.grid(row = 0,column=0)
 
 
 
