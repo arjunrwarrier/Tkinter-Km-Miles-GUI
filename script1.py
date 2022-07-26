@@ -3,8 +3,8 @@ from tkinter import * #going to use many functions in tkinter,
 window = Tk()  #initialising window
 
 def km_to_miles():
-    print(e1_value.get())
-    t1.insert(END,e1_value.get())
+    miles = float(e1_value.get())*1.6
+    t1.insert(END,miles)
 
 b1 = Button(window,text="Execute", command=km_to_miles)
 
